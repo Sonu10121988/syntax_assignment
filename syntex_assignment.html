@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- function (); -->
+    <script>
+      var data = 50; //global varribals
+      function a() {
+        document.write("global varribals => ");
+        document.write(data);
+      }
+      function b() {
+        var data = 100; //local varribals
+        document.write("<br>");
+        document.write("Local Varriables => ");
+        document.writeln(data);
+      }
+      a(); //calling javascript function
+      b();
+      
+      //Assignment for console.log
+      var fruits;
+      console.log('List of fruits \nmango \nApple \nBanana');
+    </script>
+</body>
+</html>
